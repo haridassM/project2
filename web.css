@@ -1,0 +1,529 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  
+}
+#header1{
+    border: 1px solid black;
+    height: 700vh;
+ 
+   
+ 
+   
+
+ 
+
+  
+   
+   
+   
+}
+#navbar{
+    border: 1px solid black;
+    height: 19vh;
+     display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 153, 0);
+
+
+
+
+  
+
+}
+#navbar>#iner{
+margin-top: 30px;
+
+}
+#iner2{
+    /* border: 1px solid black; */
+    height: 70px;
+    width: 370px;
+    margin-top: 35px;
+    text-align: center;
+word-spacing: 27px;
+
+}
+
+
+#iner2>span{
+/* border: 1px solid  rgb(220, 208, 208); */
+text-align: center;
+background-color: rgba(194, 183, 169, 0.192);
+color: rgb(255, 255, 255);
+
+
+}
+#iner2>span:hover{
+  background-color: rgb(184, 117, 17);
+  cursor: pointer;
+  color: aliceblue;
+}
+.sp{
+    text-decoration: none;
+    color: white;
+}
+#header2{
+    border: 1px solid black;
+    height: 90vh;
+    width: 1261px;
+   position: absolute;
+    display: flex;
+
+   
+
+  
+}
+#header2>#box1{
+    /* border: 1px solid black; */
+    height: 390px;
+    width:550px ;
+    margin-left: 90px;
+    margin-top:40px ;
+    
+}
+#header2>#box2{
+    /* border: 1px solid black; */
+    height: 390px;
+    width:400px ;
+    margin-left: 90px;
+    margin-top:40px ;
+    
+}
+#but1{
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+
+}
+#box1>h4,h1,p,#but1{
+    margin-top: 39px;
+    margin-left: 49px;
+}
+#box1>h4{
+    color: coral;
+}
+#box1>#but1{
+    background-color: rgb(255, 153, 0);
+    
+    text-align: center;
+    color: black;
+
+}
+#box1>#but1:hover{
+background-color: rgb(14, 17, 17);
+color: rgb(255, 252, 252);
+}
+#header2>#box2{
+    background-image: url("https://cdn.pixabay.com/photo/2019/09/23/11/43/dog-4498327_1280.jpg");
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#header3>article{
+    border: 1px solid black;
+    height: 65vh;
+    width: 405px;
+    margin-left: 400px;
+
+    box-shadow: 0px 0px 6px 0px;
+  display: none;
+    border-color: chocolate;
+background-color: rgb(202, 202, 202);
+
+
+ 
+
+  
+   
+  
+   
+    
+}
+#header3>article>form{
+   text-align: center;
+   margin-top: 20px;
+
+}
+#header3>article>#account{
+    margin-left: 140px;
+    font-size: larger;
+    
+}
+form>#log{
+margin-left: 4px;
+}
+#header4{
+    border: 1px solid black;
+    margin-top: 497px;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+#header4>.con{
+    border: 1px solid black;
+    height: 240px;
+    width: 320px;
+    margin-top: 59px;
+    border-radius: 10px;
+    transition: 2s;
+
+   
+
+}
+#header4>#first{
+    background-image: url("https://cdn.dribbble.com/users/6555322/screenshots/17660696/media/f5bfe5e8d366e821f13d66932b5192b8.png?resize=640x480&vertical=center");
+    background-size: cover;
+}
+#header4>#sec{
+    background-image: url("https://cdn.dribbble.com/users/3010375/screenshots/17713358/media/b6654abd40383ab0901e1b829262aded.jpg?resize=450x338&vertical=center");
+    background-size: cover;
+}
+#header4>#third{
+    background-image: url("https://cdn.dribbble.com/userupload/11881781/file/original-8af3a722d35241f88fcfac19ee9609a2.png?resize=450x338&vertical=center");
+    background-size: cover;
+}
+.con:hover{
+    transform:scale(1.1);
+    
+}
+#header5{
+    border: 1px solid black;
+    margin-top: 497px;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top:0px;
+ 
+}
+#header5>.con1{
+    border: 1px solid black;
+    height: 240px;
+    width: 320px;
+    margin-top: 59px;
+    border-radius: 10px;
+   
+    animation-name:dog;
+    animation-duration:15s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+ transition: 2s;
+   
+    
+    
+}
+@keyframes dog{
+   
+
+    0%{
+       margin-left:-1080px;
+       
+        
+
+    }
+    50%{
+        margin-left:600px;
+      
+    }
+    100%{
+       margin-left:-2480px;
+     
+    }
+ 
+}
+#header5>#four{
+    background-image: url("https://cdn.dribbble.com/users/10610257/screenshots/20442397/media/c39673751b436977efb9f6ad651d6e60.jpg?resize=450x338&vertical=center");
+    background-size: cover;
+}
+#header5>#five{
+    background-image: url("https://cdn.dribbble.com/users/840731/screenshots/18136746/media/554be4cca3ee42678efd17cdbb2ceb62.jpg?resize=450x338&vertical=center");
+    background-size: cover;
+}
+#header5>#six{
+    background-image: url("https://cdn.dribbble.com/users/4504510/screenshots/18879903/media/ccf5735fc38ec4d9526dcfa26712d334.png?resize=450x338&vertical=center");
+    background-size: cover;
+}
+
+#header6{
+   border: 1px solid black; 
+    height:130vh;
+  
+}
+
+#flex_container{
+   
+    height: 140vh;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    margin-top: 25px;
+  
+   
+    
+}
+#header6>h3{
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+  
+}
+#header6>h3::before{
+    content: " ";
+    border: 1px solid rgba(152, 147, 147, 0.756);
+    position: absolute;
+    width:210px;
+    left:340px;
+    top: 10px;
+    border-bottom-style: none;
+}
+#header6>h3::after{
+    content: " ";
+    border: 1px solid rgba(152, 147, 147, 0.756);;
+    position: absolute;
+    width:210px;
+    right:340px;
+    top:10px;
+    border-bottom-style: none;
+}
+.item{
+   
+    
+    width: 540px;
+    align-items: center;
+   
+   
+   
+}
+#para1>p{
+    opacity: 0.7;
+    line-height: 25px;
+    font-size: 14.6777px;
+    margin-left: 0px;
+}
+#para2>p{
+    opacity: 0.7;
+    line-height: 25px;
+    font-size: 14.6777px;
+    margin-left: 0px;
+}
+.content{
+    padding: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 6px;
+    background-color: rgb(220, 143, 19);;
+    color: white;
+    margin-top: 29px;
+   
+
+}
+.link1{
+    text-transform: uppercase;
+    text-decoration: double;
+    color: rgb(22, 29, 35);
+}
+.content:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+i{
+    padding-right: 10px;
+   
+   
+    
+   
+   
+}
+.content2{
+    margin-left: 14px;
+    padding: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 6px;
+    background-color: #252122;
+    color: #ffff;
+}
+
+#header7{
+    border: 1px solid black;
+    height:190vh;
+    
+  
+}
+#header7>#flex{
+    border: 1px solid black;
+    height: 30px;
+    display: flex;
+    width: 100px;
+   margin-left: 580px;
+   justify-content: space-between;
+}
+
+#header7 #art1{
+   height: 8px;
+   width: 9px;
+ 
+   border-radius: 10px;
+   background-color: aqua;
+  
+
+}
+#header7 #art2{
+    height: 8px;
+    width: 9px;
+  
+    border-radius: 10px;
+    background-color: aqua;
+ 
+ }
+ #header7 #art3{
+    height: 10px;
+    width: 9px;
+   
+    border-radius: 19px;
+    background-color: aqua;
+ 
+ }
+ #header7 #art4{
+    height: 11px;
+    width: 9px;
+
+    border-radius: 12px;
+    background-color: aqua;
+ 
+ }
+ #header7>#option{
+    border: 1px solid black;
+    height:30vh;
+ }
+ #h22{
+    text-align: center;
+    margin-top: 16px;
+ }
+ #h33{
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 0px;
+    word-spacing:2px;
+    font-size: larger;
+ }
+ #inner{
+   
+    height: 50px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 452px;
+    width:350px;
+    border-radius: 20px;
+   
+   
+    
+ }
+ #inner>.two{
+    border: 1px solid black;
+    height: 50px;
+    width:190px ;
+  text-align: center;
+  line-height: 47px;
+  border-radius: 20px;
+   
+ }
+ #inner>#uniq1{
+    background-color: rgba(232, 144, 80, 0.904);
+ }
+ #uniq2{
+    background-color: rgba(232, 144, 80, 0.904);
+
+ }
+ #header8{
+    border: 1px solid black;
+    height:120vh;
+    
+    
+   
+    
+ }
+ #dog{
+    border: 1px solid black;
+    height:46vh;
+    display: flex;
+    
+    
+    justify-content: space-evenly;
+   
+ }
+ #cat{
+    border: 1px solid black;
+    
+    height:46vh;
+    display: flex;
+    justify-content: space-evenly;
+   
+ }
+
+
+ #dog>.box{
+     border: 1px solid black;
+     height: 230px;
+     width: 280px;
+     border-radius: 15px;
+   
+ }
+ #dog>#dog1{
+    background-image: url("https://www.wiggles.in/cdn/shop/files/Group-3164_3.png?v=1656047165");   
+}
+#dog>#dog2{
+        background-image: url("https://www.wiggles.in/cdn/shop/files/Group-316411.png?v=1656566468");    
+}
+#dog>#dog3{
+        background-image: url("https://www.wiggles.in/cdn/shop/files/Dog_Icon_bea5763c-3d12-40b1-a755-da5d8e0a8417.jpg?v=1662628113");
+}
+#dog>.box{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cat{
+    border: 1px solid black;
+    height: 44vh;
+   
+ }
+ #cat>.bat{
+     border: 1px solid black;
+     height: 230px;
+     width: 280px;
+     border-radius: 15px;
+
+ }
+ #cat>#cat1{
+    background-image: url("https://www.wiggles.in/cdn/shop/files/Group-3164_2.png?v=1655891644");   
+}
+#cat>#cat2{
+    background-image: url("https://www.wiggles.in/cdn/shop/files/Category_64e723d3-13fb-4ac5-87ab-b17c2a557622.png?v=1655895387");   
+}
+#cat>#cat3{
+    background-image: url("https://www.wiggles.in/cdn/shop/files/Cat_Icon_686717f2-c6d5-4a8c-a44f-2959be67aefb.png?v=1662628113");   
+}
+#cat>.bat{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* #dog{
+display: none;
+}
+#cat{
+    display: none;
+} */
+
+
+
+
+
+
+
+
+
